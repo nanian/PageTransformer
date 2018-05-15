@@ -1,6 +1,4 @@
-# PageTransformer
-//核心代码
-private void initFanZhuan() {
+# PageTransformer private void initFanZhuan() {
         sensorMgr = (SensorManager) getSystemService(SENSOR_SERVICE);
         sensor = sensorMgr.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         SensorEventListener lsn = new SensorEventListener() {
