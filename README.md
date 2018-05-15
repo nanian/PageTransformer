@@ -1,4 +1,6 @@
-# PageTransformer private void initFanZhuan() {
+# PageTransformer 
+
+    private void initFanZhuan() {
         sensorMgr = (SensorManager) getSystemService(SENSOR_SERVICE);
         sensor = sensorMgr.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         SensorEventListener lsn = new SensorEventListener() {
@@ -29,7 +31,6 @@
         //注册listener，第三个参数是检测的精确度
         sensorMgr.registerListener(lsn, sensor, SensorManager.SENSOR_DELAY_GAME);
     }
-    
     private void playAnim() {
         Log.e("tag", "playAnim::" + isStart);
         bannerView.stopAutoPlay();
