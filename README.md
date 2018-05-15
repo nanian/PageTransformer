@@ -1,4 +1,5 @@
 # PageTransformer 
+![看图](/gif/gif.mp4)
 
     private void initFanZhuan() {
         sensorMgr = (SensorManager) getSystemService(SENSOR_SERVICE);
